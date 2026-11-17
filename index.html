@@ -7,67 +7,182 @@
 <title>Vitor Gerloff</title>
 
 <style>
-body{
-    font-family:Arial,sans-serif;
-    background:#f5f5f5;
+
+*{
     margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f4f6f9;
+    font-family:Segoe UI, Arial, sans-serif;
+    color:#222;
+}
+
+.header{
+    background:linear-gradient(135deg,#003366,#0057a8);
+    height:180px;
+}
+
+.container{
+    max-width:450px;
+    margin:-90px auto 40px;
     padding:20px;
 }
+
 .card{
-    max-width:500px;
-    margin:auto;
     background:white;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 4px 12px rgba(0,0,0,.15);
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
-h1{
-    color:#003366;
-    margin-bottom:5px;
+
+.profile{
+    text-align:center;
+    padding:20px;
 }
-h2{
+
+.profile img.photo{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid white;
+    margin-top:-80px;
+    box-shadow:0 5px 20px rgba(0,0,0,.2);
+}
+
+.profile h1{
+    margin-top:15px;
+    font-size:30px;
+}
+
+.subtitle{
     color:#666;
-    font-size:18px;
-    margin-top:0;
+    margin-top:8px;
 }
-.btn{
+
+.logo{
+    width:180px;
+    margin-top:20px;
+}
+
+.info{
+    padding:0 25px 25px;
+}
+
+.info p{
+    margin-top:12px;
+    font-size:16px;
+}
+
+.button{
     display:block;
     text-decoration:none;
     text-align:center;
-    padding:12px;
-    margin-top:10px;
-    border-radius:8px;
+    margin-top:12px;
+    padding:14px;
+    border-radius:10px;
     color:white;
+    font-weight:bold;
+    transition:.2s;
+}
+
+.button:hover{
+    opacity:.90;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.phone{
     background:#0078d4;
 }
+
+.email{
+    background:#6f42c1;
+}
+
+.linkedin{
+    background:#0A66C2;
+}
+
+.contact{
+    background:#ff6b00;
+}
+
+.footer{
+    text-align:center;
+    color:#999;
+    font-size:12px;
+    padding:20px;
+}
+
 </style>
 </head>
 
 <body>
 
+<div class="header"></div>
+
+<div class="container">
+
 <div class="card">
+
+<div class="profile">
+
+<img src="foto.jpeg" class="photo">
 
 <h1>Vitor Gerloff</h1>
 
-<h2>Engenharia Elétrica - Projetos</h2>
+<div class="subtitle">
+Engenharia Elétrica - Projetos
+</div>
 
-<p><b>Empresa:</b> TMSA</p>
+<img src="tmsa.png" class="logo">
 
-<p><b>Telefone:</b> (51) 99331-5872</p>
+</div>
 
-<p><b>E-mail:</b> vitor.gerloff@tmsa.ind.br</p>
+<div class="info">
 
-<a class="btn" href="tel:51993315872">
-📞 Ligar
+<p>📞 (51) 99331-5872</p>
+
+<p>✉️ vitor.gerloff@tmsa.ind.br</p>
+
+<a class="button whatsapp"
+href="https://wa.me/5551993315872">
+WhatsApp
 </a>
 
-<a class="btn" href="mailto:vitor.gerloff@tmsa.ind.br">
-✉️ Enviar e-mail
+<a class="button phone"
+href="tel:51993315872">
+Ligar
 </a>
 
-<a class="btn" href="vitor.vcf">
-💾 Salvar contato
+<a class="button email"
+href="mailto:vitor.gerloff@tmsa.ind.br">
+Enviar E-mail
 </a>
+
+<a class="button linkedin"
+href="https://www.linkedin.com/in/vitor-gerloff-406a1423/">
+LinkedIn
+</a>
+
+<a class="button contact"
+href="vitor.vcf">
+Salvar Contato
+</a>
+
+</div>
+
+<div class="footer">
+Cartão digital NFC
+</div>
+
+</div>
 
 </div>
 

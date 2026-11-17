@@ -1,6 +1,10 @@
 BEGIN:VCARD
 VERSION:3.0
+N:Gerloff;Vitor;;;
 FN:Vitor Gerloff
-TEL:51993315872
-EMAIL:vitor.gerloff@tmsa.ind.br
+ORG:TMSA
+TITLE:Engenharia Elétrica - Projetos
+TEL;TYPE=CELL:51993315872
+EMAIL;TYPE=INTERNET:vitor.gerloff@tmsa.ind.br
+URL:https://www.linkedin.com/in/vitor-gerloff-406a1423/
 END:VCARD

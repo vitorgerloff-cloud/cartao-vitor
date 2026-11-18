@@ -35,6 +35,7 @@ body{
 .card{
     background:white;
     border-radius:25px;
+    overflow:visible;
     box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
 
@@ -45,10 +46,11 @@ body{
 }
 
 .profile img.photo{
-    width:260px;
-    max-width:90%;
-    height:auto;
-    border-radius:20px;
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    object-position:center center;
     border:6px solid white;
     margin-top:-80px;
     box-shadow:0 8px 25px rgba(0,0,0,.2);
